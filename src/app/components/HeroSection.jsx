@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 ">
         <div className="col-span-7 text-center place-self-center sm:text-left">
           <h1 className='mb-4 text-4xl font-extrabold text-white lg:text-6xl sm:text-5xl'>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">Hello, I'm{"  "} </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">Hello, I&apos;m{" "} </span>
             <br />
             <TypeAnimation
               sequence={[
@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl '>
-            I'm a Web developer with an extensive will to develop amazing websites comprising both frontend design and backend and much more...
+            I&apos;m a Web developer with an extensive will to develop amazing websites comprising both frontend design and backend and much more...
           </p>
           <div className="mt-6">
             <button className='px-6 py-3 mr-4 text-white transition-transform transform rounded-full sm:w-auto bg-gradient-to-br from-blue-500 via-purple-600 to-pink-700 hover:bg-slate-400 hover:scale-105'>
